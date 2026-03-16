@@ -29,8 +29,8 @@ export default function HomePage() {
     <main className="relative bg-hero-radial">
       <div className="pointer-events-none absolute inset-0 -z-10 bg-subtle-grid bg-[size:120px_120px] opacity-50" />
       <header className="sticky top-0 z-40 w-full border-b border-ink/10 bg-white/85 backdrop-blur">
-        <nav className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4 text-sm">
-          <div className="font-[var(--font-display)] text-lg font-semibold">
+        <nav className="mx-auto flex w-full max-w-6xl items-center justify-between gap-3 px-6 py-4 text-sm">
+          <div className="min-w-0 flex-1 font-[var(--font-display)] text-base font-semibold sm:text-lg">
             Temilade Afolayan Mercy
           </div>
           <div className="hidden gap-6 text-ink/70 md:flex">
@@ -55,7 +55,7 @@ export default function HomePage() {
           </div>
           <a
             href="/Temilade-Afolayan-Mercy-CV.pdf"
-            className="rounded-full border border-ink/40 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-ink transition hover:border-ink hover:bg-ink hover:text-white"
+            className="whitespace-nowrap rounded-full border border-ink/40 px-3 py-2 text-center text-[10px] font-semibold uppercase tracking-[0.18em] text-ink transition hover:border-ink hover:bg-ink hover:text-white sm:px-4 sm:text-xs"
             download
           >
             Download CV

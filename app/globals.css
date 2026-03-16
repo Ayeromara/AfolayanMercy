@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-ink: #0b1a33;
+  --color-mint: #b7d8c7;
+  --color-mist: #eff6f2;
+  --color-sand: #f6f5f1;
+  --color-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-ink);
+  background: linear-gradient(180deg, #ffffff 0%, #f6f5f1 70%, #eff6f2 100%);
+}
+
+::selection {
+  background: rgba(183, 216, 199, 0.7);
+  color: #0b1a33;
+}

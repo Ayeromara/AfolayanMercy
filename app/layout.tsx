@@ -27,7 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${playfair.variable} ${sourceSans.variable}`}>
-      <body className="min-h-screen bg-white font-[var(--font-body)] text-ink antialiased">
+      <body className="min-h-screen bg-sand font-[var(--font-body)] text-ink antialiased">
         {children}
       </body>
     </html>

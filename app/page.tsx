@@ -28,7 +28,7 @@ export default function HomePage() {
   return (
     <main className="relative bg-hero-radial">
       <div className="pointer-events-none absolute inset-0 -z-10 bg-subtle-grid bg-[size:120px_120px] opacity-50" />
-      <header className="sticky top-0 z-40 w-full border-b border-ink/10 bg-white/85 backdrop-blur">
+      <header className="sticky top-0 z-40 w-full border-b border-white/10 bg-navy/80 backdrop-blur">
         <nav className="mx-auto flex w-full max-w-6xl items-center justify-between gap-3 px-6 py-4 text-sm">
           <div className="min-w-0 flex-1 font-[var(--font-display)] text-base font-semibold sm:text-lg">
             Temilade Afolayan Mercy
@@ -55,7 +55,7 @@ export default function HomePage() {
           </div>
           <a
             href="/Temilade-Afolayan-Mercy-CV.pdf"
-            className="whitespace-nowrap rounded-full border border-ink/40 px-3 py-2 text-center text-[10px] font-semibold uppercase tracking-[0.18em] text-ink transition hover:border-ink hover:bg-ink hover:text-white sm:px-4 sm:text-xs"
+            className="whitespace-nowrap rounded-full border border-white/20 px-3 py-2 text-center text-[10px] font-semibold uppercase tracking-[0.18em] text-ink transition hover:border-mint hover:bg-mint hover:text-sand sm:px-4 sm:text-xs"
             download
           >
             Download CV
@@ -83,26 +83,26 @@ export default function HomePage() {
               <div className="flex flex-wrap items-center gap-4">
                 <a
                   href="#contact"
-                  className="rounded-full bg-ink px-7 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-ink/90"
+                  className="rounded-full bg-mint px-7 py-3 text-sm font-semibold text-sand transition hover:-translate-y-0.5 hover:bg-mint/90"
                 >
                   Contact Me
                 </a>
                 <a
                   href="/Temilade-Afolayan-Mercy-CV.pdf"
-                  className="rounded-full border border-ink/30 px-7 py-3 text-sm font-semibold text-ink transition hover:-translate-y-0.5 hover:border-ink"
+                  className="rounded-full border border-white/20 px-7 py-3 text-sm font-semibold text-ink transition hover:-translate-y-0.5 hover:border-mint"
                   download
                 >
                   Download CV
                 </a>
               </div>
               <div className="flex flex-wrap gap-3 text-xs uppercase tracking-[0.2em] text-ink/60">
-                <span className="rounded-full border border-ink/10 bg-white/80 px-4 py-2">
+                <span className="rounded-full border border-white/10 bg-navy/70 px-4 py-2">
                   Science Education
                 </span>
-                <span className="rounded-full border border-ink/10 bg-white/80 px-4 py-2">
+                <span className="rounded-full border border-white/10 bg-navy/70 px-4 py-2">
                   Research Ready
                 </span>
-                <span className="rounded-full border border-ink/10 bg-white/80 px-4 py-2">
+                <span className="rounded-full border border-white/10 bg-navy/70 px-4 py-2">
                   Student Growth
                 </span>
               </div>
@@ -112,7 +112,7 @@ export default function HomePage() {
             <div className="relative flex justify-center">
               <div className="absolute -left-10 top-6 h-40 w-40 rounded-full bg-mint/40 blur-2xl" />
               <div className="absolute -bottom-8 right-4 h-28 w-28 rounded-full bg-ink/10 blur-2xl" />
-              <div className="relative rounded-[40px] border border-ink/10 bg-white/90 p-5 shadow-card backdrop-blur">
+              <div className="relative rounded-[40px] border border-white/10 bg-navy/90 p-5 shadow-card backdrop-blur">
                 <Image
                   src="/mercy.jpeg"
                   alt="Temilade Afolayan Mercy"
@@ -121,7 +121,7 @@ export default function HomePage() {
                   className="h-[420px] w-[320px] rounded-[30px] object-cover md:h-[520px] md:w-[380px]"
                   priority
                 />
-                <div className="absolute -bottom-8 left-6 right-6 rounded-2xl border border-ink/10 bg-white/90 p-4 text-center text-xs uppercase tracking-[0.3em] text-ink/60 shadow-card">
+                <div className="absolute -bottom-8 left-6 right-6 rounded-2xl border border-white/10 bg-navy/90 p-4 text-center text-xs uppercase tracking-[0.3em] text-ink/60 shadow-card">
                   Passionate about science education and research
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function HomePage() {
         </div>
         <div className="mt-16 grid gap-6 md:grid-cols-3">
           <Reveal>
-            <Card className="bg-white">
+            <Card className="bg-navy">
               <p className="text-xs uppercase tracking-[0.3em] text-ink/60">
                 Teaching Focus
               </p>
@@ -144,7 +144,7 @@ export default function HomePage() {
             </Card>
           </Reveal>
           <Reveal delay={0.1}>
-            <Card className="bg-white">
+            <Card className="bg-navy">
               <p className="text-xs uppercase tracking-[0.3em] text-ink/60">
                 Research Interest
               </p>
@@ -158,7 +158,7 @@ export default function HomePage() {
             </Card>
           </Reveal>
           <Reveal delay={0.2}>
-            <Card className="bg-white">
+            <Card className="bg-navy">
               <p className="text-xs uppercase tracking-[0.3em] text-ink/60">
                 Student Impact
               </p>
@@ -177,7 +177,7 @@ export default function HomePage() {
       <Section id="about" title="About" subtitle="Profile">
         <div className="grid gap-8 md:grid-cols-[1.3fr_0.7fr]">
           <Reveal>
-            <Card className="bg-white">
+            <Card className="bg-navy">
               <p className="text-base leading-relaxed text-ink/70">
                 I am a biochemistry graduate committed to advancing science
                 education through engaging teaching strategies and
@@ -188,7 +188,7 @@ export default function HomePage() {
             </Card>
           </Reveal>
           <Reveal delay={0.1}>
-            <Card className="bg-white">
+            <Card className="bg-navy">
               <p className="text-sm uppercase tracking-[0.3em] text-ink/60">
                 Tagline
               </p>
@@ -203,7 +203,7 @@ export default function HomePage() {
       <Section id="education" title="Education" subtitle="Academic Background">
         <div className="grid gap-6 md:grid-cols-2">
           <Reveal>
-            <Card className="bg-white">
+            <Card className="bg-navy">
               <h3 className="font-[var(--font-display)] text-xl font-semibold text-ink">
                 B.Sc. Biochemistry
               </h3>
@@ -217,7 +217,7 @@ export default function HomePage() {
             </Card>
           </Reveal>
           {/* <Reveal delay={0.1}>
-            <Card className="bg-white">
+            <Card className="bg-navy">
               <h3 className="font-[var(--font-display)] text-xl font-semibold text-ink">
                 Science Education Training
               </h3>
@@ -238,7 +238,7 @@ export default function HomePage() {
       >
         <div className="grid gap-6 md:grid-cols-2">
           <Reveal>
-            <Card className="bg-white">
+            <Card className="bg-navy">
               <p className="text-sm uppercase tracking-[0.3em] text-ink/60">
                 PZ Cussons
               </p>
@@ -252,7 +252,7 @@ export default function HomePage() {
             </Card>
           </Reveal>
           <Reveal delay={0.1}>
-            <Card className="bg-white">
+            <Card className="bg-navy">
               <p className="text-sm uppercase tracking-[0.3em] text-ink/60">
                 Ramjet Schools
               </p>
@@ -272,7 +272,7 @@ export default function HomePage() {
       <Section id="skills" title="Skills" subtitle="Core Competencies">
         <div className="grid gap-6 md:grid-cols-3">
           <Reveal>
-            <Card className="bg-white">
+            <Card className="bg-navy">
               <h3 className="font-[var(--font-display)] text-xl font-semibold text-ink">
                 Laboratory Skills
               </h3>
@@ -280,7 +280,7 @@ export default function HomePage() {
                 {skills.laboratory.map((skill) => (
                   <li
                     key={skill}
-                    className="rounded-full bg-mist px-4 py-2 transition hover:-translate-y-0.5 hover:bg-mint/60"
+                    className="rounded-full bg-mist px-4 py-2 transition hover:-translate-y-0.5 hover:bg-mint/30"
                   >
                     {skill}
                   </li>
@@ -289,7 +289,7 @@ export default function HomePage() {
             </Card>
           </Reveal>
           <Reveal delay={0.1}>
-            <Card className="bg-white">
+            <Card className="bg-navy">
               <h3 className="font-[var(--font-display)] text-xl font-semibold text-ink">
                 Teaching Skills
               </h3>
@@ -297,7 +297,7 @@ export default function HomePage() {
                 {skills.teaching.map((skill) => (
                   <li
                     key={skill}
-                    className="rounded-full bg-mist px-4 py-2 transition hover:-translate-y-0.5 hover:bg-mint/60"
+                    className="rounded-full bg-mist px-4 py-2 transition hover:-translate-y-0.5 hover:bg-mint/30"
                   >
                     {skill}
                   </li>
@@ -306,7 +306,7 @@ export default function HomePage() {
             </Card>
           </Reveal>
           <Reveal delay={0.2}>
-            <Card className="bg-white">
+            <Card className="bg-navy">
               <h3 className="font-[var(--font-display)] text-xl font-semibold text-ink">
                 Tools and Platforms
               </h3>
@@ -314,7 +314,7 @@ export default function HomePage() {
                 {skills.tools.map((skill) => (
                   <li
                     key={skill}
-                    className="rounded-full bg-mist px-4 py-2 transition hover:-translate-y-0.5 hover:bg-mint/60"
+                    className="rounded-full bg-mist px-4 py-2 transition hover:-translate-y-0.5 hover:bg-mint/30"
                   >
                     {skill}
                   </li>
@@ -328,7 +328,7 @@ export default function HomePage() {
       <Section id="contact" title="Contact" subtitle="Get In Touch">
         <div className="grid gap-6 md:grid-cols-[1.1fr_0.9fr]">
           <Reveal>
-            <Card className="bg-white">
+            <Card className="bg-navy">
               <h3 className="font-[var(--font-display)] text-xl font-semibold text-ink">
                 Let&apos;s Connect
               </h3>
@@ -339,13 +339,13 @@ export default function HomePage() {
               <div className="mt-6 flex flex-wrap gap-4">
                 <a
                   href="mailto:afolayanmercy171@gmail.com"
-                  className="rounded-full bg-ink px-5 py-2 text-sm font-semibold text-white transition hover:-translate-y-0.5"
+                  className="rounded-full bg-mint px-5 py-2 text-sm font-semibold text-sand transition hover:-translate-y-0.5 hover:bg-mint/90"
                 >
                   Email Me
                 </a>
                 <a
                   href="/Temilade-Afolayan-Mercy-CV.pdf"
-                  className="rounded-full border border-ink/30 px-5 py-2 text-sm font-semibold text-ink transition hover:-translate-y-0.5"
+                  className="rounded-full border border-white/20 px-5 py-2 text-sm font-semibold text-ink transition hover:-translate-y-0.5 hover:border-mint"
                   download
                 >
                   Download CV
@@ -408,7 +408,7 @@ export default function HomePage() {
         </div>
       </Section>
 
-      <footer className="border-t border-ink/10 py-8">
+      <footer className="border-t border-white/10 py-8">
         <div className="mx-auto flex w-full max-w-6xl flex-col items-center justify-between gap-4 px-6 text-xs text-ink/60 md:flex-row">
           <span>Temilade Afolayan Mercy</span>
           <span>Biochemistry Graduate &amp; Science Teacher</span>
